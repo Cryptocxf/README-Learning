@@ -17,7 +17,7 @@ BUAA，我很高兴认识你们！
 * 对于加粗可以在本文前后加上`**`或`__`就可以实现加粗。效果：**加粗**;  
 * 对于斜体可以在文本前后加上`*`或`_`就可以实现斜体。效果：*斜体*;  
 * 对于删除线可以在文本前后加上`~~`就可以实现删除线。效果：~~删除线~~;  
-* 对于斜粗体线可以在文本前后加上`***`或`___`就可以实现删除线。效果：***斜粗体***;  
+* 对于斜粗体线可以在文本前后加上`***`或`___`就可以实现斜粗体。效果：***斜粗体***;  
 ### 效果： 
 大家好，我叫**Alice**，来自*BUAA*，我很~~高兴~~认识***你们***！  
 ## 4. 文本居中  
@@ -69,8 +69,14 @@ ___
 * alt表示图片加载失败时显示的文本  
 * URL表示该图片的位置  
 * titile是鼠标悬停在图片时显示的文本  
+或者用`.<img src="URL" width="300" height="450" />`来显示固定大小图片，另外用`.<div align=center><img src="URL" width="300" height="450" /></div>`实现固定大小图片的居中显示。
 ### 效果：  
 ![csdn](https://github.com/Cryptocxf/README-Learning/blob/main/figure/CSDN.jpg "CSDN")  
+.<img src="https://github.com/Cryptocxf/README-Learning/blob/main/figure/CSDN.jpg" width="300" height="450" />
+.<div align=center>
+    <img src="https://github.com/Cryptocxf/README-Learning/blob/main/figure/CSDN.jpg" width="300" height="450" />
+</div>  
+
 ## 9. 插入表格  
 ### 说明： 
 若想插入表格，是比较麻烦的，不能实现直接的插入表格，而是需要按照格式输入进去。特别注意，插入表格前需要空一行，不然不能正确输出。且符号`|`和`-`两侧至少需要一个空格。基本格式为  
@@ -150,6 +156,7 @@ for i or range(10):
 ## 16. 添加表情  
 ### 说明： 
 Github的readme支持添加emoji表情，输入不同的符号码(两个冒号包围的字符)可以显示出不同的表情。下面我就简单列出常见的表情，另外其他表情可以通过查询[Github官网表情](http://www.emoji-cheat-sheet.com)  
+注：在Edit模式下，添加表情代码后不会立即显示出来，需要commit后才会显示。
 ### 效果： 
 
 | **Syntax** | **Preview** | **Syntax** | **Preview** |  
