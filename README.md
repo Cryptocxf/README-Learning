@@ -69,7 +69,7 @@ ___
 * alt表示图片加载失败时显示的文本  
 * URL表示该图片的位置  
 * titile是鼠标悬停在图片时显示的文本  
-或者用`.<img src="URL" width="300" height="450" />`来显示固定大小图片，另外用`.<div align=center><img src="URL" width="300" height="450" /></div>`实现固定大小图片的居中显示。
+或者用`.<img src="URL" width="300" height="450" />`来显示固定大小图片，另外用`.<div align=center><img src="URL" width="300" height="450" /></div>`实现固定大小图片的居中显示。(注：在Edit模式下，居中效果不会显示，需要commit后才能看到）
 ### 效果：  
 ![csdn](https://github.com/Cryptocxf/README-Learning/blob/main/figure/CSDN.jpg "CSDN")  
 .<img src="https://github.com/Cryptocxf/README-Learning/blob/main/figure/CSDN.jpg" width="300" height="450" />
